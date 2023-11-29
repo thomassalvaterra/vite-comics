@@ -27,13 +27,62 @@ export default {
 
 <template>
     <div class="murales">
-        <div class="footerLinks">
+        <div class="container">
+            <div class="footerLinks">
+                <div class="list">
+                    <div class="title"><strong>DC COMICS</strong></div>
+                    <ul>
+                        <li>Characters</li>
+                        <li>Comics</li>
+                        <li>Movies</li>
+                        <li>TV</li>
+                        <li>Games</li>
+                        <li>Videos</li>
+                        <li>News</li>
+                        <br>
+                    </ul>
+                    <div class="title"><strong>SHOP</strong></div>
+                    <ul>
+                        <li>Shop DC</li>
+                        <li>Shop DC Collectibles</li>
+                    </ul>
+                </div>
+                <div class="list">
+                    <div class="title"><strong>DC</strong></div>
+                    <ul>
+                        <li>Terms Of Use</li>
+                        <li>Privacy policy (New)</li>
+                        <li>Ad Choices</li>
+                        <li>Advertising</li>
+                        <li>Jobs</li>
+                        <li>Subscriptions</li>
+                        <li>Talent Workshops</li>
+                        <li>CPSC Certificates</li>
+                        <li>Ratings</li>
+                        <li>Shop Help</li>
+                        <li>Contact us</li>
+                    </ul>
+                </div>
+                <div class="list">
+                    <div class="title"><strong>SITES</strong></div>
+                    <ul>
+                        <li>DC</li>
+                        <li>MAD Magazine</li>
+                        <li>DC Kids</li>
+                        <li>DC Universe</li>
+                        <li>DC Power Visa</li>
+                    </ul>
+                </div>
 
-        </div>
-        <div class="bgLogo">
 
+
+            </div>
+            <div class="bgLogo">
+
+            </div>
         </div>
     </div>
+
     <footer>
         <div class="container">
             <button id="btn"><b>SIGN-UP NOW!</b></button>
@@ -56,7 +105,8 @@ export default {
 }
 
 .footerLinks {
-    width: 1400px;
+    display: flex;
+    margin-top: 20px;
 }
 
 .bgLogo {
@@ -68,7 +118,7 @@ export default {
 
 footer {
     background-color: rgb(70, 70, 70);
-    height: 134px;
+    height: 6rem;
     display: flex;
 }
 
@@ -101,5 +151,26 @@ footer {
 
 .space {
     margin: 10px;
+}
+
+.title {
+    color: whitesmoke;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.list {
+    margin-right: 25px;
+}
+
+ul {
+    color: white;
+}
+
+li {
+    list-style-type: none;
+    color: rgb(127, 127, 129);
+    font-size: 13px;
+    line-height: 20px;
 }
 </style>

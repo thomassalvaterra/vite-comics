@@ -56,7 +56,7 @@ section {
 }
 
 .container {
-    height: 150px;
+    height: 7rem;
     display: flex;
     justify-content: space-around;
     align-items: center;

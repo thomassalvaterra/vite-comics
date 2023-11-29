@@ -32,45 +32,45 @@ export default {
                 <div class="list">
                     <div class="title"><strong>DC COMICS</strong></div>
                     <ul>
-                        <li>Characters</li>
-                        <li>Comics</li>
-                        <li>Movies</li>
-                        <li>TV</li>
-                        <li>Games</li>
-                        <li>Videos</li>
-                        <li>News</li>
+                        <li><a href="#">Characters</a></li>
+                        <li><a href="#">Comics</a></li>
+                        <li><a href="#">Movies</a></li>
+                        <li><a href="#">TV</a></li>
+                        <li><a href="#">Games</a></li>
+                        <li><a href="#">Videos</a></li>
+                        <li><a href="#">News</a></li>
                         <br>
                     </ul>
                     <div class="title"><strong>SHOP</strong></div>
                     <ul>
-                        <li>Shop DC</li>
-                        <li>Shop DC Collectibles</li>
+                        <li><a href="#">Shop DC</a></li>
+                        <li><a href="#">Shop DC Collectibles</a></li>
                     </ul>
                 </div>
                 <div class="list">
                     <div class="title"><strong>DC</strong></div>
                     <ul>
-                        <li>Terms Of Use</li>
-                        <li>Privacy policy (New)</li>
-                        <li>Ad Choices</li>
-                        <li>Advertising</li>
-                        <li>Jobs</li>
-                        <li>Subscriptions</li>
-                        <li>Talent Workshops</li>
-                        <li>CPSC Certificates</li>
-                        <li>Ratings</li>
-                        <li>Shop Help</li>
-                        <li>Contact us</li>
+                        <li><a href="#">Terms Of Use</a></li>
+                        <li><a href="#">Privacy policy (New)</a></li>
+                        <li><a href="#">Ad Choices</a></li>
+                        <li><a href="#">Advertising</a></li>
+                        <li><a href="#">Jobs</a></li>
+                        <li><a href="#">Subscriptions</a></li>
+                        <li><a href="#">Talent Workshops</a></li>
+                        <li><a href="#">CPSC Certificates</a></li>
+                        <li><a href="#">Ratings</a></li>
+                        <li><a href="#">Shop Help</a></li>
+                        <li><a href="#">Contact us</a></li>
                     </ul>
                 </div>
                 <div class="list">
                     <div class="title"><strong>SITES</strong></div>
                     <ul>
-                        <li>DC</li>
-                        <li>MAD Magazine</li>
-                        <li>DC Kids</li>
-                        <li>DC Universe</li>
-                        <li>DC Power Visa</li>
+                        <li><a href="#">DC</a></li>
+                        <li><a href="#">MAD Magazine</a></li>
+                        <li><a href="#">DC Kids</a></li>
+                        <li><a href="#">DC Universe</a></li>
+                        <li><a href="#">DC Power Visa</a></li>
                     </ul>
                 </div>
 
@@ -169,8 +169,16 @@ ul {
 
 li {
     list-style-type: none;
-    color: rgb(127, 127, 129);
     font-size: 13px;
     line-height: 20px;
+}
+
+li a {
+    text-decoration: none;
+    color: rgb(127, 127, 129);
+}
+
+li :hover {
+    color: white;
 }
 </style>

@@ -55,9 +55,9 @@ export default {
 
 <template>
     <header>
+        <img src="../assets/img/dc-logo.png" alt="DC Logo">
         <nav>
-            <img src="../assets/img/dc-logo.png" alt="DC Logo">
-            <a v-for="categories in menu" href="categories.url">{{ categories.text }}</a>
+            <a v-for="categories in menu" href="categories.url"><strong>{{ categories.text }}</strong></a>
         </nav>
     </header>
 </template>
@@ -66,9 +66,6 @@ export default {
 header {
     margin: 40px auto;
     width: 1400px;
-}
-
-nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -78,5 +75,10 @@ nav a {
     margin: 0 1rem;
     text-decoration: none;
     color: #222;
+    font-size: 14px;
+}
+
+a :hover {
+    border-bottom: 2px solid rgb(52, 161, 235);
 }
 </style>
